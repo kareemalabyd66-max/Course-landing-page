@@ -1,0 +1,18 @@
+@media (max-width: 992px){
+    .hero{
+        text-align: center;
+        padding-top: 120px;
+    }
+    .hero h1{
+        font-size: 40px;
+    }
+    .hero img{
+        margin-top: 30px;
+    }
+    .content-grid{
+        grid-template-columns: 1fr;
+    }
+    .form-row, .form-row.three-cols{
+        grid-template-columns: 1fr;
+    }
+}
